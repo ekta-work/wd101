@@ -69,7 +69,7 @@
     
     entries.forEach(entry => {
       const row = tableBody.insertRow();
-      const rowData = [entry.name, entry.email, entry.password, entry.dobInput, entry.acceptedTerms ? 'True' : 'False'];
+      const rowData = [entry.name, entry.email, entry.password, entry.dobInput, entry.acceptedTerms ? 'true' : 'false'];
 
       rowData.forEach((data, index) => {
         const cell = row.insertCell(index);
