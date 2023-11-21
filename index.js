@@ -1,9 +1,9 @@
 
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
     // Load stored entries on page load
     const storedEntries = JSON.parse(localStorage.getItem('registeredUsers')) || [];
     displayEntries(storedEntries);
-  });
+  });*/
 
   // Set the min and max attributes for the date input based on age range
   const currentDate = new Date();
